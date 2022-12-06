@@ -1,0 +1,84 @@
+# TrajectoryPlannerROS:
+#   max_vel_x: 0.5 #0.5
+#   min_vel_x: 0.0 #0.0
+#   max_vel_theta: 0.5 #0.5
+#   # min_vel_theta: -1.0 #new
+#   min_in_place_vel_theta: 0 #0
+
+#   acc_lim_theta: 0.01
+#   acc_lim_x: 0.5 #0.01
+#   acc_lim_y: 0.01
+#   # acc_lim_theta: 1.0 #new
+
+#   # yaw_goal_tolerance: 0.3 #new
+#   # xy_goal_tolerance: 0.15 #new
+
+#   # meter_scoring: true #new
+#   # pdist_scale: 0.6 #new
+#   # gdist_scale: 0.8 #new
+#   # occdist_scale: 0.01 #new
+#   # heading_lookahead: 0.325 #new
+#   # dwa: true #new
+#   # oscillation_reset_dist: 0.05 #new
+
+#   holonomic_robot: false
+#   # max_vel_y: 0.0 #new
+#   # min_vel_y: 0.0 #new
+#   # acc_lim_y: 0.0 #new
+#   # vy_samplesL: 1 #new
+  
+
+TrajectoryPlannerROS:
+
+# Robot Configuration Parameters
+  max_vel_x: 0.26
+  min_vel_x: -0.2 #0.08
+
+  max_vel_theta:  0.9 #1.0
+  min_vel_theta: -0.9 #-1.0
+  min_in_place_vel_theta: 0.0 #0.9 #1.0
+
+  acc_lim_x: 0.5
+  acc_lim_y: 0.0
+  acc_lim_theta: 0.2
+
+# Goal Tolerance Parameters
+  xy_goal_tolerance: 1.0  #0.10
+  yaw_goal_tolerance: 3.0 #0.05
+
+# Differential-drive robot configuration
+  holonomic_robot: false
+
+# Forward Simulation Parameters
+  sim_time: 0.8
+  vx_samples: 18
+  vtheta_samples: 20
+  sim_granularity: 0.05
+
+#tutlebot 3
+# TrajectoryPlannerROS:
+
+# # Robot Configuration Parameters
+#   max_vel_x: 0.18
+#   min_vel_x: 0.08
+
+#   max_vel_theta:  1.0
+#   min_vel_theta: -1.0
+#   min_in_place_vel_theta: 1.0
+
+#   acc_lim_x: 1.0
+#   acc_lim_y: 0.0
+#   acc_lim_theta: 0.6
+
+# # Goal Tolerance Parameters
+#   xy_goal_tolerance: 0.10
+#   yaw_goal_tolerance: 0.05
+
+# # Differential-drive robot configuration
+#   holonomic_robot: false
+
+# # Forward Simulation Parameters
+#   sim_time: 0.8
+#   vx_samples: 18
+#   vtheta_samples: 20
+#   sim_granularity: 0.05

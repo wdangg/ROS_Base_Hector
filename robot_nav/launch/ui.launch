@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<launch>
+  
+  <!-- <node name="set_pose_node" pkg="localization_data" type="set_pose_node" output="screen"/> -->
+
+  <node name="oops_ui_add" pkg="localization_data" type="oops_ui_add.py" output="screen"/>
+
+</launch>

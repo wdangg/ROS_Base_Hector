@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<launch>
+  
+  <!-- <node name="set_pose_node" pkg="localization_data" type="set_pose_node" output="screen"/> -->
+
+  <node name="u" pkg="simulation_launch" type="u.py" output="screen"/>
+
+</launch>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+  <master auto="start"/>
+
+  <include file="$(find test_serial)/launch/teleop.launch"/>
+
+
+</launch>
+
+<!-- src on pi -->

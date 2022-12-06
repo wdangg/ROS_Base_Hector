@@ -1,0 +1,29 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/opt/ros/noetic/include/**",
+        "/home/dangw/robot/fpl_ws/src/hector_slam/hector_geotiff/include/**",
+        "/home/dangw/robot/fpl_ws/src/hector_slam/hector_map_tools/include/**",
+        "/home/dangw/robot/fpl_ws/src/hector_slam/hector_mapping/include/**",
+        "/home/dangw/robot/fpl_ws/src/hector_slam/hector_marker_drawing/include/**",
+        "/home/dangw/robot/fpl_ws/src/localization_data/include/**",
+        "/home/dangw/robot/fpl_ws/src/robot_pose_ekf/include/**",
+        "/home/dangw/robot/fpl_ws/src/simulation_launch/include/**",
+        "/home/dangw/robot/fpl_ws/src/turtlebot3_simulations/turtlebot3_fake/include/**",
+        "/home/dangw/robot/fpl_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
