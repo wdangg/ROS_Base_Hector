@@ -2,8 +2,10 @@
 <launch>
   <master auto="start"/>
 
+  <include file="$(find test_serial)/launch/teleop.launch"/>
   <include file="$(find test_serial)/launch/serial.launch"/>
   <include file="$(find rplidar_ros)/launch/rplidar.launch"/>
   <include file="$(find hector_slam_launch)/launch/tutorial.launch"/>
+  
 
 </launch>
